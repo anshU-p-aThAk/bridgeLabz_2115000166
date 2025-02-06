@@ -126,3 +126,10 @@ This repository contains the progress and work done for the Java learning journe
 
 - Started working on practice problems of Java Constructors from 'Java Constructors, Instance vs. Class Variables, Access Modifiers' Assignment
 
+### Date: 03-02-2025
+- Go through from the Documentation and covered below topics.
+	- 'this' keyword & its common uses
+	- 'static' keyword features, advantages and disadvantages
+	- Best Practice for Using 'static' keyword
+	- 'instanceOf' operator
+- Started and solved 3 problems of the 'Java this, static, final keywords & instanceof operator' Lab Practice Assignment.
