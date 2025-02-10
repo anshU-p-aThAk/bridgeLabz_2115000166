@@ -1,5 +1,9 @@
 import java.util.*;
 
+interface Refuelable {
+    void refuel();
+}
+
 class Vehicle {
     protected int maxSpeed;
     protected String model;
@@ -8,10 +12,6 @@ class Vehicle {
         this.maxSpeed = maxSpeed;
         this.model = model;
     }
-
-    public void refuel() {
-        System.out.println("Refueling the vehicle...");
-    }
 }
 
 class ElectricVehicle extends Vehicle {
@@ -19,29 +19,26 @@ class ElectricVehicle extends Vehicle {
         super(maxSpeed, model);
     }
 
-    @Override
-    public void refuel() {
-        System.out.println("Electric vehicle does not require fuel, charging instead...");
+    public void charge() {
+        System.out.println("Charging the vehicle...");
     }
 }
 
-class PetrolVehicle extends Vehicle {
+class PetrolVehicle extends Vehicle implements Refuelable {
     public PetrolVehicle(int maxSpeed, String model) {
         super(maxSpeed, model);
     }
 
-    @Override
     public void refuel() {
-        System.out.println("Refueling the petrol vehicle...");
+        System.out.println("Refueling the vehicle...");
     }
 }
 
 public class VehicleManagement {
     public static void main(String[] args) {
-        Vehicle ev = new ElectricVehicle(120, "Model X");
-        ev.refuel();
-
-        Vehicle pv = new PetrolVehicle(180, "Model S");
-        pv.refuel();
+        ElectricVehicle electricVehicle = new ElectricVehicle(120, "Model X");
+        electricVehicle.charge();
+        PetrolVehicle petrolVehicle = new PetrolVehicle(180, "Model S");
+        petrolVehicle.refuel();
     }
 }
