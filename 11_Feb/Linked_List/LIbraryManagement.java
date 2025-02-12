@@ -139,7 +139,7 @@ class Library {
     }
 }
 
-public class LibraryManagement {
+public class LIbraryManagement {
     public static void main(String[] args) {
         Library library = new Library();
         library.addBookAtBeginning(1, "The Alchemist", "Paulo Coelho", "Fiction", true);
