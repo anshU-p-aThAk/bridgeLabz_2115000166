@@ -133,3 +133,94 @@ This repository contains the progress and work done for the Java learning journe
 	- Best Practice for Using 'static' keyword
 	- 'instanceOf' operator
 - Started and solved 3 problems of the 'Java this, static, final keywords & instanceof operator' Lab Practice Assignment.
+  
+### Date: 04-02-2025
+- Covered topics from Object Modeling Documentation
+	- Classes vs. Objects in Java
+	- Classes vs. Objects in a Project
+	- Association, Aggregation and Composition
+
+### Date: 05-02-2025
+- Deep-dive more about the Association, Aggregation and Composition
+- Go through documenation of Object Oriented Design Principles
+	- Class Diagram
+	- Object Diagram
+	- Sequence Diagram
+- Completed half of the problems of the 'Object Modeling' Assignment.
+
+### Date: 06-02-2025
+- Go through the documentation of Inheritance
+	- Inheritance and its Types
+	- Key Features of Inheritance
+	- Override Annotation
+	- Constructor Inheritance
+	- Method Overriding
+	- Polymorphism and Inheritance
+	- Access Modifiers and Inheritance
+
+
+### Date: 07-02-2025
+- Further Revision of already completed topics.
+- Go deep on some new topics:
+	- Memory Areas in Java
+	- CharSequence Interface and its implemented Classes
+		- String
+		- StringBuffer
+		- StringBuilder
+		- StringTokenizer
+	- String Pool
+	- Abstraction & Interface
+	- How to Achieve Multiple Inheritance
+
+### Date: 09-02-2025
+- Learn more about Encapsulation, Code Reusablity, Data hiding and Maintenance.
+- Learn about all types of Polymorphism and its use cases.
+
+
+### Date: 10-02-2025
+- Learn about Abstract classes and Interfaces deeply
+- Typecasting object in Interface
+
+### Date: 11-02-2025
+- Gone through the Documentation of Linked List
+	- Types of Data Structures and their key features
+	- What is Linked List?
+	- Types of Linked List
+	- Advantages and Disadvantages of Linked List
+	- Implementation of Linked List in Java
+
+### Date: 12-02-2025
+- Done a quick revision.
+	- Thread Safety
+	- 'tail' compulsion in Linked List
+- Learn Basic about Stacks
+
+
+### Date: 13-02-2025
+- Gone through the Documentation of Stacks, Queues, HashMap and Hashing Function
+	- Stacks
+		- Defination & Principle
+		- Operations 
+		- Use cases
+		- Key Characteristics
+		- Advantages
+		- Limitations
+	- Queues
+		- Defination & Principle
+		- Operations 
+		- Use cases
+		- Key Characteristics
+		- Advantages
+		- Limitations
+	- HashMap
+		- Defination
+		- Use Cases
+		- Internal Implementations
+		- Operations
+		- Key Characteristics
+		- Advantages
+		- Limitations
+	- Hashing Function
+		- What is Hashing?
+		- Applications
+	
